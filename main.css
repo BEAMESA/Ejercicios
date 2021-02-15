@@ -1,0 +1,257 @@
+html {
+    padding: 30px;
+    margin: 30px;
+    background-color: brown;
+  }
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #e8eced;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 100;
+    margin: 100;
+}
+
+  .main-wrapper {
+    padding: 30px;
+  }
+  
+  .info-container {
+    display: flex; 
+    justify-content: space-evenly;
+  }
+
+.foto {
+    padding-left: 50px;
+}
+  
+.informacion {
+    background-color: aqua;
+    
+}
+
+.contacto {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.master {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1082b3;
+}
+
+
+.grado {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1082b3;
+}
+
+.exchange {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1082b3;
+}
+
+.high {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1082b3;
+}
+
+.languages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.programas {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+progress {
+    width: 130px;
+    height: 30px;
+}
+
+
+/* grafics circulars */
+
+.circular-progress {
+    position: relative;
+    margin: auto;
+  }
+  .circular-progress, .circular-progress:before, .circular-progress:after {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+  }
+  .circular-progress:before, .circular-progress:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+  }
+  .circular-progress:before {
+    line-height: 8rem;
+    padding: 0.5em;
+    box-sizing: border-box;
+    font-size: 1.8rem;
+  }
+  .circular-progress:after {
+    line-height: 13rem;
+  }
+  
+  .catalan {
+    background: linear-gradient(0deg, red 50%,red 50%);
+    transform: rotate(180deg);
+  }
+  .catalan:before, .catalan:after {
+    color: red;
+  }
+  .catalan:before {
+    content: "Catalan";
+    background: rgb(14, 14, 13) content-box;
+    transform: rotate(-180deg);
+    text-transform: uppercase;
+  }
+  .catalan:after {
+    content: "100%";
+    background: linear-gradient(transparent 50%, rgb(14, 13, 13), 50%);
+    transform: scale(1.1) rotate(-180deg);
+  }
+
+  .spanish {
+    background: linear-gradient(0deg, tomato 50%, rgba(255, 99, 71, 0.2) 50%);
+    transform: rotate(180deg);
+  }
+  .spanish:before, .spanish:after {
+    color: tomato;
+  }
+  .spanish:before {
+    content: "Spanish";
+    background: #000 content-box;
+    transform: rotate(-180deg);
+    text-transform: uppercase;
+  }
+  .spanish:after {
+    content: "100%";
+    background: linear-gradient(transparent 50%, #000 50%);
+    transform: scale(1.1) rotate(-180deg);
+  }
+  
+  .english {
+    background: linear-gradient(0deg, rgb(32, 148, 243) 50%, rgba(70, 130, 180, 0.2) 50%);
+    transform: rotate(180deg);
+  }
+  .english:before, .english:after {
+    color: steelblue;
+  }
+  .english:before {
+    content: "English";
+    background: rgb(214, 172, 172) content-box;
+    transform: rotate(-180deg);
+    text-transform: uppercase;
+  }
+  .english:after {
+    content: "85%";
+    background: linear-gradient(transparent 50%, 50%);
+    transform: scale(1.1) rotate(-180deg);
+  }
+  
+  .french {
+    background: linear-gradient(0deg, orange 50%, rgba(255, 165, 0, 0.2) 50%);
+    transform: rotate(40deg);
+  }
+  .french:before, .jscript:after {
+    color: orange;
+  }
+  .french:before {
+    content: "French";
+    background: #000 content-box;
+    transform: rotate(-40deg);
+    text-transform: uppercase;
+  }
+  .french:after {
+    content: "57%";
+    background: linear-gradient(transparent 50%, #000 50%);
+    transform: scale(1.1) rotate(-40deg);
+  }
+  
+  /* .skills {
+    display: flex;
+    margin-top: 4em;
+    flex-wrap: wrap;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+  .info-rrss {
+    background-color: rgb(28, 104, 100);
+    /* min-height: 100px; */
+  
+  }
+  
+  .rrss {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .rrss a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .rrss i {
+    padding: 10px;
+    transform: scale(1.5);
+  }
+  .rrss i:hover {
+    transform: scale(2)
+  }
+  
+  @media all and (min-width: 520px) {
+    .info-container {
+      display: flex;
+    }
+  
+    .rrss {
+      flex-direction: row;
+      justify-content: space-around;
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+  
+    .rrss li {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .personal-info {
+      /* margin-left: 30px; */
+    }
+  }
