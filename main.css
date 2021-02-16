@@ -1,12 +1,26 @@
 html {
     padding: 30px;
     margin: 30px;
-    background-color: brown;
+    background-color: rgb(241, 234, 234);
   }
+
+html .video_background {
+  position:fixed;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+  }
+
+
   body {
     box-sizing: border-box;
     margin: 0;
-    background-color: #e8eced;
+    background-color: rgba(132, 121, 121, 0.5);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 100;
     margin: 100;
@@ -26,7 +40,7 @@ html {
 }
   
 .informacion {
-    background-color: aqua;
+    background-color: white;
     
 }
 
@@ -36,7 +50,6 @@ html {
     justify-content: space-between;
     align-items: center;
 }
-
 
 
 .master {
@@ -113,15 +126,15 @@ progress {
   }
   
   .catalan {
-    background: linear-gradient(0deg, red 50%,red 50%);
+    background: linear-gradient(0deg, rgb(248, 96, 35) 100%, rgba(70, 130, 180, 0.2) 100%);
     transform: rotate(180deg);
   }
   .catalan:before, .catalan:after {
-    color: red;
+    color: black;
   }
   .catalan:before {
     content: "Catalan";
-    background: rgb(14, 14, 13) content-box;
+    background: rgba(63, 85, 209, 0.9) content-box;
     transform: rotate(-180deg);
     text-transform: uppercase;
   }
@@ -132,60 +145,60 @@ progress {
   }
 
   .spanish {
-    background: linear-gradient(0deg, tomato 50%, rgba(255, 99, 71, 0.2) 50%);
+    background: linear-gradient(0deg, rgb(248, 96, 35) 100%,  rgba(70, 130, 180, 0.2) 100%);
     transform: rotate(180deg);
   }
   .spanish:before, .spanish:after {
-    color: tomato;
+    color: black;
   }
   .spanish:before {
     content: "Spanish";
-    background: #000 content-box;
+    background: rgba(63, 85, 209, 0.9) content-box;
     transform: rotate(-180deg);
     text-transform: uppercase;
   }
   .spanish:after {
     content: "100%";
-    background: linear-gradient(transparent 50%, #000 50%);
+    background: linear-gradient(transparent 50%, 50%);
     transform: scale(1.1) rotate(-180deg);
   }
-  
+
   .english {
-    background: linear-gradient(0deg, rgb(32, 148, 243) 50%, rgba(70, 130, 180, 0.2) 50%);
+    background: linear-gradient(0deg, rgb(248, 96, 35) 70%, rgba(70, 130, 180, 0.2) 70%);
     transform: rotate(180deg);
   }
   .english:before, .english:after {
-    color: steelblue;
+    color: black;
   }
   .english:before {
     content: "English";
-    background: rgb(214, 172, 172) content-box;
+    background: rgba(63, 85, 209, 0.9) content-box;
     transform: rotate(-180deg);
     text-transform: uppercase;
   }
   .english:after {
-    content: "85%";
+    content: "70%";
     background: linear-gradient(transparent 50%, 50%);
     transform: scale(1.1) rotate(-180deg);
   }
-  
+
   .french {
-    background: linear-gradient(0deg, orange 50%, rgba(255, 165, 0, 0.2) 50%);
-    transform: rotate(40deg);
+    background: linear-gradient(0deg, rgb(248, 96, 35) 20%, rgba(70, 130, 180, 0.2) 20%);
+    transform: rotate(180deg);
   }
   .french:before, .jscript:after {
-    color: orange;
+    color: black;
   }
   .french:before {
     content: "French";
-    background: #000 content-box;
-    transform: rotate(-40deg);
+    background: rgba(63, 85, 209, 0.9) content-box;
+    transform: rotate(-180deg);
     text-transform: uppercase;
   }
   .french:after {
-    content: "57%";
-    background: linear-gradient(transparent 50%, #000 50%);
-    transform: scale(1.1) rotate(-40deg);
+    content: "20%";
+    background: linear-gradient(transparent 50%,  50%);
+    transform: scale(1.1) rotate(-180deg);
   }
   
   /* .skills {
@@ -254,4 +267,6 @@ progress {
     .personal-info {
       /* margin-left: 30px; */
     }
+
+
   }
