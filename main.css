@@ -14,7 +14,7 @@ html .video_background {
   height: auto;
   z-index: -1000;
   overflow: hidden;
-  opacity: 0.2;
+  opacity: 0.7;
 }
 
 
@@ -25,8 +25,13 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 100;
   margin: 100;
-  color: aliceblue;
+  color: rgb(220, 231, 241);
 }
+
+nav {
+  display: block;
+}
+
 
 .main-wrapper {
   padding: 30px;
@@ -36,7 +41,6 @@ body {
   display: flex; 
   justify-content: space-evenly;
 }
-
 
 
 .presentacion {
@@ -59,6 +63,10 @@ body {
     align-items: center;
 }
 
+
+#info, #infor, #informa, #informat {
+  display: none;
+}
 
 .master {
     display: flex;
@@ -389,8 +397,3 @@ progress {
 
 
 
-
-
-nav {
-  display: block;
-}
