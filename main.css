@@ -15,7 +15,7 @@ html .video_background {
   z-index: -1000;
   overflow: hidden;
   opacity: 0.2;
-  }
+}
 
 
 body {
@@ -48,7 +48,7 @@ body {
 }
   
 .informacion {
-    background-color: rgb(101, 99, 99);
+  background-color: rgb(101, 99, 99);
     
 }
 
@@ -200,7 +200,7 @@ progress {
   }
   .french:before {
     content: "French";
-    background: rgba(63, 85, 209, 0.9) content-box;
+    background: rgb(63, 85, 209) content-box;
     transform: rotate(-180deg);
     text-transform: uppercase;
   }
