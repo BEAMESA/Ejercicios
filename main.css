@@ -52,7 +52,7 @@ nav {
 }
   
 .informacion {
-  background-color: rgb(101, 99, 99);
+  background-color: rgb(54, 52, 52);
     
 }
 
@@ -71,26 +71,26 @@ nav {
 .master {
     display: flex;
     justify-content: space-between;
-    background-color: #1082b3;
+    background-color: #363e42;
 }
 
 
 .grado {
     display: flex;
     justify-content: space-between;
-    background-color: #1082b3;
+    background-color: #363e42;
 }
 
 .exchange {
     display: flex;
     justify-content: space-between;
-    background-color: #1082b3;
+    background-color: #363e42;
 }
 
 .high {
     display: flex;
     justify-content: space-between;
-    background-color: #1082b3;
+    background-color: #363e42;
 }
 
 .languages {
@@ -230,7 +230,7 @@ progress {
 
 
   .info-rrss {
-    background-color: rgb(28, 104, 100);
+    background-color:  rgb(54, 52, 52);
     /* min-height: 100px; */
   
   }

@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html class="nav-js" id="wrapper">
 
-   
   <head>
     <meta charset="utf-8">
     <title>Elvira Beatriz Méndez</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-  
+
 </head>
 
     
 
     <body>
 
-    <video autoplay="autoplay" loop="loop" class="video_background" preload="auto" volume="50">
-    <source src="rapid.mp4" type="video/mp4" />
-    </video>
+        <video autoplay="autoplay" loop="loop" class="video_background" preload="auto" volume="50">
+        <source src="rapid.mp4" type="video/mp4" />
+        </video>
+
+
 
 
     <div class="cuerpo">
 
         <nav>
-            <a href="/Ejercicios/cv_cat.html">Català</a> |
-            <a href="/Ejercicios/cv_esp.html">Castellano</a> |
-            <a href="/Ejercicios/cv.html">English</a> |
+            <a href="cv_cat.html">Català</a> |
+            <a href="cv_esp.html">Castellano</a> |
+            <a href="cv.html">English</a> |
         </nav>
 
 
@@ -36,13 +37,16 @@
                 <div class="personal-info">
                     <div>
                         <h1>Elvira Beatriz Méndez</h1> 
-                        <h2>Analista GIS i Geogràfa</h2>
+                        <h2>Analista GIS i Geògrafa</h2>
                         <p style="font-size: 17px";>Barcelona, Espanya</p>
                 <hr>
                     </div>
 
                     <div class="presentacion">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, odio quos. Placeat debitis facere itaque soluta officiis. Eos laudantium mollitia nam dolorum, eveniet corrupti odio laborum illum assumenda quasi? Optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium doloremque, similique debitis molestiae, consequatur eum corrupti adipisci et, fuga in optio. Vitae aut omnis voluptatum esse ab perferendis optio asperiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa labore eius laboriosam modi laborum aperiam, officiis non facilis tempore soluta perspiciatis quam sint. Quidem, quia? Reiciendis qui suscipit aliquam minima?</p>
+                        <p>Sóc una persona motivada i proactiva que busca nous reptes i responsabilitats per desenvolupar i ampliar els meus coneixements i habilitats en els Sistemes d'Informació Geogràfica.
+                        La meva determinació d’orientar la meva carrera cap als SIG prové de la meva motivació per treballar en un sector tecnològic actualment en auge.
+                        A més, gràcies a la meva llarga estada a l’estranger, he desenvolupat altes habilitats d’adaptació, responsabilitat i maduresa, així com diferents maneres de desenvolupar-me en diferents habilitats dins dels SIG.
+                        Estic convençuda que es tracta d'un món en el qual puc desenvolupar-me excel·lentment gràcies a les habilitats que ja he adquirit i que es detallen a continuació.</p>
                     </div>
 
                 </div>
@@ -56,15 +60,15 @@
 
         <div class="informacion">
 
-            <h2>Contact information</h2>
+            <h2>Informació de contacte</h2>
 
             <ul class="contacto">
 
             <li>
-                <span>Day of birth  25/11/1995</span> 
+                <span>Data de naixement:  11/1995</span> 
             </li>
             <li>
-                <span>Barcelona city</span>
+                <span>Barcelona ciutat</span>
             </li>
             <li>
                 <span>+34 722 54 51 19</span>
@@ -74,6 +78,7 @@
                 </li>
             
             </ul>
+            <br>
 
         </div>
 
@@ -85,28 +90,27 @@
         
         <div class="formation">
 
-            <h2>Formation</h2>
+            <h2>Formació</h2>
             
             <div class="mastercontainer">
             
-                <div class="master">
+                <div class="master" onclick="myFunction('info')">
                 
                     <div class="esri">
                         <p><b>ESRI España (Environmental Systems Research Institute)</b></p>
-                        <p><i>Master's Degree in Geographic Information Systems</i></p>
+                        <p><i>Master en Sistemes d'Informació Geogràfica</i></p>
                     </div>
 
                     <div class="fecha1">
-                        <p> Madrid, Spain</p>
+                        <p> Madrid, Espanya</p>
                         <p><i>sept'20 - jun'21</i></p>
                     </div>
                 </div>
 
-                <ul>
-                    <li>Handling tools through ArcMap, Arcgis Pro, Arcgis Online and ArcGIS Server</li>
-                    
-                    <li>Management of geographic information through Geodatabases</li>
-                    <li>Advanced network analysis, Python script development, GIS Architecture deployment and Web application development</li>
+                <ul id="info">
+                    <li>Especialista en maneig d'eines a través d'ArcMap, Arcgis Pro, Arcgis Online i ArcGIS Server</li>
+                    <li>Especialista en gestió d'informació geogràfica a través de geodatabases</li>
+                    <li>Especialista en anàlisi de xarxa avançat, desenvolupament de scripts Python, implementació d'arquitectura GIS i desenvolupament d'aplicacions web</li>
                 </ul>
 
             </div>
@@ -114,23 +118,22 @@
 
             <div class="gradocontainer">
             
-                <div class="grado">
+                <div class="grado" onclick="myFunction('infor')">
                     <div class="uab">
                         <p><b>Universitat Autònoma de Barcelona</b></p>
-                        <p><i>Bachelor's in Geography and Spacial Planning (Mention in Territorial and Environmental Planning)</i></p>
+                        <p><i>Grau en Geografia y Ordenació del Territori</i></p>
                     </div>
 
                     <div class="fecha2">
-                        <p> Barcelona, Spain</p>
+                        <p> Barcelona, Espanya</p>
                         <p><i>sept'14 - jun'20</i></p>
                     </div>
                 </div>
 
-                <ul>
-                    <li>Handling tools through ArcMap, Arcgis Pro, Arcgis Online and ArcGIS Server</li>
-                    
-                    <li>Management of geographic information through Geodatabases</li>
-                    <li>Advanced network analysis, Python script development, GIS Architecture deployment and Web application development</li>
+                <ul id="infor">
+                    <li>Especialista en planificació i gestió del territori i polítiques de les institucions públiques i privades</li> 
+                    <li>Especialista en tècniques cartogràfiques i metodologies quantitatives (cartografia, big data, teledetecció, georeferenciació, etc.)</li>
+                    <li>Especialista en anàlisi comarcal i regional i també de països i grans regions del món (recursos estratègics, geopolítica)</li>
                 </ul>
 
             </div>
@@ -138,10 +141,10 @@
 
             <div class="exchangecontent">
             
-                <div class="exchange">
+                <div class="exchange" onclick="myFunction('informa')">
                     <div class="puc">
                         <p><b>Pontificia Universidad Católica de Chile</b></p>
-                        <p><i>International exchange program</i></p>
+                        <p><i>Programa d'intercanvi internacional</i></p>
                     </div>
 
                     <div class="fecha3">
@@ -150,35 +153,34 @@
                     </div>
                 </div>
 
-                <ul>
-                    <li>Handling tools through ArcMap, Arcgis Pro, Arcgis Online and ArcGIS Server</li>
-                    
-                    <li>Management of geographic information through Geodatabases</li>
-                    <li>Advanced network analysis, Python script development, GIS Architecture deployment and Web application development</li>
+                <ul id="informa">
+                    <li>Ampliació del maneig i aplicabilitat d'estratègies de lideratge i treball en equip en països de l'estranger</li>
+                    <li>Ampliació dels coneixements d'eines i tecnologies geomàtiques, instruments d'ordenament i planificació territorial a escala local, regional i nacional</li>
+                    <li>Ampliació de mètodes de treball de camp per a la comprensió del funcionament complex dels sistemes naturals i culturals a Xile</li>
                 </ul>
 
             </div>
 
 
-            <div class="highcontent">
+            <div class="highcontent" onclick="myFunction('informat')">
             
                 <div class="high">
                     <div class="vives">
-                        <p><b>High school </b></p>
-                        <p><i>Specialization in social sciences</i></p>
+                        <p><b>Batxillerat</b></p>
+                        <p><i>Especialització en Ciències Socials</i></p>
                     </div>
 
                     <div class="fecha4">
-                        <p>Barcelona, Spain</p>
+                        <p>Barcelona, Espanya</p>
                         <p><i>sept'11 - jun'14</i></p>
                     </div>
                 </div>
 
-                <ul>
-                    <li>Handling tools through ArcMap, Arcgis Pro, Arcgis Online and ArcGIS Server</li>
+                <ul id="informat">
+                    <li>Branca de les ciències de l'economia i l'empresa</li>
                     
-                    <li>Management of geographic information through Geodatabases</li>
-                    <li>Advanced network analysis, Python script development, GIS Architecture deployment and Web application development</li>
+                    <li>Formular preguntes vinculades als processos del món social</li>
+
                 </ul>
 
         </div>
@@ -188,7 +190,7 @@
         <br>
 
 
-        <h2>Languages</h2>
+        <h2>Idiomes</h2>
 
         <div class="languages">
         
@@ -225,7 +227,7 @@
 
         <div>
 
-            <h2>Programming languages and web page modeling</h2>
+            <h2>Llenguatges de programació i modelització de pàgines web</h2>
             <div class="programas">
 
                     <div>
